@@ -285,7 +285,7 @@
 # second_costliest = price[-2]
 # print("Second costliest item:", second_costliest[0])
 
-#!Write a python program that takes a string as input and returns a new string where each word is reversed. For example, if the input is "Hello World," the output should be "olleH dlroW."
+#! 16 Write a python program that takes a string as input and returns a new string where each word is reversed. For example, if the input is "Hello World," the output should be "olleH dlroW."
 
 
 # text = input("Enter a string: ")
@@ -309,10 +309,10 @@
 #             result.append(s[::-1])
 #     return result
 
-# new = filter_and_reverse(["hiijskjslkhs", "computer", "python"])
+# new = filter_and_reverse(["pappu","ritom" , "pias"])
 # print(new)
 
-#
+
 
 #!13
 # books = [
@@ -341,20 +341,18 @@
 # special = False
 # specialc="!@#$%^&*"
 
-
-     
-
-
 # if(len(p)<8):
 #     print("enter up to")
 # else:
-#     if p.isupper():
-#        upper=True
-#     elif p.lower():
+#     for p1 in p:
+
+#        if p1.isupper():
+#          upper=True
+#        elif p1.islower():
 #         lower=True
-#     elif p.digit():
+#        elif p1.isdigit():
 #         digit=True
-#     elif p in special:
+#        elif p1 in specialc:
 #         special=True
     
 #     if upper and lower and digit and special :
@@ -366,14 +364,42 @@
 
 #!21 You are given with a list of dictionaries having keys (name, marks). Write a program to filter the name of students on the basis of marks value given by user. Example display names of all the students having marks >95.
 
-student = [
-    {"name":"ritom","marks":88},
-    {"name":"pappu","marks":99}
+# student = [
+#     {"name":"ritom","marks":88},
+#     {"name":"pappu","marks":99}
+# ]
+
+# mar = int (input("enter student mark:"))
+
+# for s in student:
+#     if s["marks"]>mar:
+#         print(s["name"])
+
+#! 20You are provided with the following data which contains details of few brands of mobile phones. l=[{'make':'Samsung','model':'j2','year':2016}, {'make':'Xiomi','model':'note3','year':2018}, {'make':'Apple','model':'XE','year':2019}] Write a program to sort this data on the basis of attribute ‘make’ and print it."
+
+l = [
+    {'make': 'Samsung', 'model': 'j2', 'year': 2016},
+    {'make': 'Xiomi', 'model': 'note3', 'year': 2018},
+    {'make': 'zpple', 'model': 'XE', 'year': 2019}
 ]
 
-mar = int (input("enter student mark:"))
+list1 = []
 
-for s in student:
-    if s["marks"]>mar:
-        print(s["name"])
+
+for item in l:
+    list1.append([item['make'], item['model'], item['year']])
+
+list1.sort()
+
+for item in list1:
+    print(item)
+
+
+
+
+
+
+
+
+ 
     
