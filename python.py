@@ -285,8 +285,95 @@
 # second_costliest = price[-2]
 # print("Second costliest item:", second_costliest[0])
 
-# ?Write a Python function that takes a list of strings as input and returns a new list containing only the strings with more than five characters. Additionally, reverse the characters in each string.
+#!Write a python program that takes a string as input and returns a new string where each word is reversed. For example, if the input is "Hello World," the output should be "olleH dlroW."
 
-s={2,3,4}
-s.update([7.8,9])
-print(s)
+
+# text = input("Enter a string: ")
+
+# words = text.split()
+
+
+# reversed_words = [word[::-1] for word in words]
+
+
+# result = " ".join(reversed_words)
+
+# print("Output:", result)
+
+#! 17 Write a Python function that takes a list of strings as input and returns a new list containing only the strings with more than five characters. Additionally, reverse the characters in each string.
+
+# def filter_and_reverse(strings):
+#     result = []
+#     for s in strings:
+#         if len(s) > 5:
+#             result.append(s[::-1])
+#     return result
+
+# new = filter_and_reverse(["hiijskjslkhs", "computer", "python"])
+# print(new)
+
+#
+
+#!13
+# books = [
+#     ("t1", "p1", 300),
+#     ("t2", "p2", 250)
+# ]
+
+# list1 = []
+
+# for t, p, y in books:
+#     list1.append((t, p, y))
+
+# list1.sort()
+
+
+# list2 = [(t, p, y) for t, p, y in list1]
+
+# print(list2)
+
+#!18 Write a Python program to check the strength of a password entered by the user. Implement conditions to check for the following: Length of at least 8 characters. Presence of both uppercase and lowercase letters. Presence of at least one digit. Presence of at least one special character (!@#$%^&*).
+
+# p=input("enter your pass:")
+# upper = False
+# lower = False
+# digit = False
+# special = False
+# specialc="!@#$%^&*"
+
+
+     
+
+
+# if(len(p)<8):
+#     print("enter up to")
+# else:
+#     if p.isupper():
+#        upper=True
+#     elif p.lower():
+#         lower=True
+#     elif p.digit():
+#         digit=True
+#     elif p in special:
+#         special=True
+    
+#     if upper and lower and digit and special :
+#         print("password strong")
+
+#     else:
+#         print("password is poor")
+
+
+#!21 You are given with a list of dictionaries having keys (name, marks). Write a program to filter the name of students on the basis of marks value given by user. Example display names of all the students having marks >95.
+
+student = [
+    {"name":"ritom","marks":88},
+    {"name":"pappu","marks":99}
+]
+
+mar = int (input("enter student mark:"))
+
+for s in student:
+    if s["marks"]>mar:
+        print(s["name"])
+    
