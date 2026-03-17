@@ -1,5 +1,5 @@
  
-# *dictionary are unordered items.items conatans key and value pair..dictionaries are mutable.
+# *dictionary are unordered items.items contains key and value pair..dictionaries are mutable.
 
 
 
@@ -18,6 +18,7 @@ dic = {
 # print(dic.values())
 
 # print(dic["name"])
+
 
 #! updation
 
@@ -57,6 +58,8 @@ dic = {
 
 # num = {0: 0, 1: 2, 2: 4, 3: 6, 4: 8, 5: 10, 6: 12, 7: 14, 8: 16, 9: 18}
 
+# num = { 1 ,2 ,3 , 4 , 5}
+
 # for i in num:
 #     print(num[i])
 
@@ -68,5 +71,21 @@ dic = {
 # for i in range(1 , n):
 #     number[i] = i*i
 # print(number)
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n)):
+        if n % i == 0:
+            return False
+    return True
+
+
+prime_dict = {n: "Prime" for n in range(1, 10)}
+
+
+
+print(prime_dict)
+
 
 
