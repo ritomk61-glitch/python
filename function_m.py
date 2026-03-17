@@ -1,0 +1,46 @@
+# print("hello world")
+
+# ? single variabl lambda
+
+# squaree = lambda x:x**2
+# print(squaree(2))
+
+# add = lambda x,y:x+y 
+# print(add(2,4))
+
+# !recarsion
+
+# def rec(n):
+#     if n == 0:
+#         return 1
+#     else:
+#         return n*rec(n-1)
+    
+# print(rec(int(input("enter a number:"))))
+
+# *lambda is used to define argumetns to higher order function
+
+# * map()
+
+# L=[1,2,3,4]
+
+# p=list(map(lambda x:x+5,L))
+# print(p)
+
+# * filter()
+# i=[1,2,3,4,5]
+
+# p=list(filter(lambda x:x%2==0,i))
+
+# print(p)
+
+# * reduce()
+L=[1,2,3,4,5]
+
+
+
+
+
+
+
+
