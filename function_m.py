@@ -20,8 +20,10 @@
 
 # *lambda is used to define argumetns to higher order function
 
-# * map()
+# &Lambda হলো anonymous function (নাম ছাড়া function)
 
+# * map()
+# ?map() use হয় list-এর সব element এর উপর একই operation apply করতে
 # L=[1,2,3,4]
 
 # p=list(map(lambda x:x+5,L))
@@ -34,8 +36,25 @@
 
 # print(p)
 
-# * reduce()
+# # * reduce()
 L=[1,2,3,4,5]
+
+fruits = ['apple', 'cherry', 'gauva']
+
+p=list(map(lambda x:x.upper(),fruits))
+print(p)
+
+items ={
+    "rice":1000,
+    "wheat":500,
+    "pen":20,
+    "vegetables":2000
+}
+l=(max(items,key=lambda x:items[x]))
+
+print(l)
+ 
+
 
 
 

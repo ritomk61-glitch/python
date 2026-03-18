@@ -36,17 +36,17 @@
 
 #* *args and **kwargs
 
-# *argus
+# *argus tupels
 
-# def info(*argus):
-#     return max(argus)
+# def info(*args):
+#     return max(args)
 
 
 # print(info(1,2,9))
 # print(info(6,10))
 
 
-# !**kwargs
+# !**kwargs dictionary
 
 # def print_info(**kwargs):
 #     for k , v in kwargs.items():
