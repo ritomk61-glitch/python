@@ -7,4 +7,6 @@ with open(r"C:\Users\ritom kumar hajra\Downloads\fire_robot_fixed.ino", "rb") as
     print(r)
     print(r.decode())
 
+
+
            
