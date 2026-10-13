@@ -1,2 +1,6 @@
-for i in range(30):
-    print("sorry")
+i = 5
+
+if(i < 6):
+    print("yes!")
+else:
+    print("no!")
